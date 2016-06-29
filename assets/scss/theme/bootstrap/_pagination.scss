@@ -1,0 +1,36 @@
+//
+// Pagination (multiple pages)
+// --------------------------------------------------
+
+.pagination {
+  font-family: $font-family-sans-serif-en;
+
+  > li {
+    display: inline; // Remove list-style and block-level defaults
+
+    > a,
+    > span {
+      border-radius: $border-radius-base;
+      padding: $padding-base-vertical $padding-base-horizontal;
+      color: $pagination-color;
+      background-color: $pagination-bg;
+      border: none;
+      margin-left: 0;
+      margin-right: 5px;
+    }
+
+
+  }
+
+  > li > a,
+  > li > span {
+    &:hover,
+    &:focus {
+      z-index: 2;
+      color: $pagination-hover-color;
+      background-color: $pagination-hover-bg;
+    }
+  }
+
+
+}

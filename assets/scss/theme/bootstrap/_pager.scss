@@ -1,0 +1,12 @@
+//
+// Pager pagination
+// --------------------------------------------------
+
+.pager {
+  li {
+    > a,
+    > span {
+      color: $pagination-color;
+    }
+  }
+}

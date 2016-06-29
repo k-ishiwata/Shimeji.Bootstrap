@@ -1,0 +1,30 @@
+//
+// Modals
+// --------------------------------------------------
+
+
+// Actual modal
+.modal-content {
+  border-radius: 7px;
+}
+// Modal header
+// Top section of the modal w/ title and dismiss
+.modal-header {
+  color: #fff;
+  background: $color-dark;
+  @include border-top-radius(5px);
+}
+.modal-header .close {
+  color: #fff;
+}
+// Footer (for actions)
+.modal-footer {
+  text-align: center;
+  background: #F7F3EA;
+  border: none;
+  @include border-bottom-radius(5px);
+
+  .btn {
+    width: 25%;
+  }
+}

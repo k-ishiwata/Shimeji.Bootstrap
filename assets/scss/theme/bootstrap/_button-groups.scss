@@ -1,0 +1,22 @@
+//
+// Button groups
+// --------------------------------------------------
+
+// Make the div behave like a button
+.btn-group,
+.btn-group-vertical {
+  > .btn {
+    &:hover,
+    &:focus,
+    &:active,
+    &.active {
+      z-index: 0;
+    }
+  }
+}
+
+// The clickable button for toggling the menu
+// Remove the gradient and set the same inset shadow as the :active state
+.btn-group.open .dropdown-toggle {
+  @include box-shadow(2px 2px 0 #A99E86);
+}

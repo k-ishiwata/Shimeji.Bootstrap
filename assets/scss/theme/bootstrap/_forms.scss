@@ -1,0 +1,92 @@
+//
+// Forms
+// --------------------------------------------------
+
+
+
+// Position radios and checkboxes better
+input[type="radio"] {
+  font-size: 116%;
+  margin: 1px 0 0;
+}
+input[type="checkbox"] {
+  font-size: 116%;
+  margin: 2px 0 0;
+}
+
+.radio,
+.checkbox {
+  label {
+    margin-right: 7px;
+  }
+}
+
+.form-control {
+  //@include box-shadow(inset 1px 1px 6px rgba(200,195,190,.5));
+
+  &:focus {
+    border-color: $color-yellow;
+    background: #FEF8EE;
+    @include box-shadow(none !important);
+  }
+}
+//.has-error,
+//.has-success,
+//.has-warning {
+//  .form-control {
+//    @include box-shadow(inset 1px 1px 6px rgba(200,195,190,.5));
+//  }
+//}
+.has-error {
+  .form-control:focus {
+    background: #fff7f2;
+  }
+}
+.has-success {
+  .form-control:focus {
+    background: #f6fbf7;
+  }
+}
+.has-warning {
+  .form-control:focus {
+    background: #FFFDEE;
+  }
+}
+
+
+
+
+.form-group {
+  .control-label .label {
+    margin-top: -5px;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 6px;
+  }
+}
+
+.form-header {
+  margin: 0 0 20px;
+  padding-bottom: 10px;
+  border-bottom: solid 1px $border-color;
+}
+.form-footer {
+  text-align: center;
+  border-top: solid 1px $border-color;
+  padding: 15px 20px;
+  @include border-bottom-radius($border-radius-large);
+
+
+  button {
+    width: 25%;
+    margin: 0 5px;
+  }
+}
+
+.form-container {
+  .form-footer {
+    margin: 30px -20px -20px;
+    border: none;
+    background: #F7F3EA;
+  }
+}

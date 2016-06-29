@@ -1,0 +1,75 @@
+//
+// Tables
+// --------------------------------------------------
+.table {
+  border: solid 1px $table-border-color;
+
+
+  // Cells
+  > thead,
+  > tbody,
+  > tfoot {
+    > tr {
+      > th {
+        border-bottom-width: 1px;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        vertical-align: middle;
+      }
+      > td {
+        padding-top: 6px;
+        padding-bottom: 6px;
+        vertical-align: middle;
+      }
+    }
+  }
+  > thead {
+    > tr {
+      > th {
+        color: #fff;
+        background: $color-dark;
+        font-weight: normal;
+        border: none;
+      }
+    }
+  }
+
+
+  .label {
+    //font-size: 85%;
+    width: 70px;
+    padding: 6px 0;
+    margin: 0;
+    font-weight: normal;
+    text-align: center;
+    display: inline-block;
+  }
+}
+
+
+.table-radius {
+  border-collapse: separate;
+  border-spacing: 0;
+
+  border-radius: $border-radius-base;
+
+  thead th {
+    &:first-child {
+      border-top-left-radius: $border-radius-base;
+    }
+    &:last-child {
+      border-top-right-radius: $border-radius-base;
+    }
+  }
+
+  tr:last-child {
+    td {
+      &:first-child {
+        border-bottom-left-radius: $border-radius-base;
+      }
+      &:last-child {
+        border-bottom-right-radius: $border-radius-base;
+      }
+    }
+  }
+}

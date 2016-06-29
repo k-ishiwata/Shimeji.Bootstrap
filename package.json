@@ -1,0 +1,14 @@
+{
+  "name": "Shimeji Bootstrap",
+  "version": "1.0.0",
+  "description": "Bootstrap Theme",
+  "main": "index.html",
+  "author": "k.ishiwata",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^2.2.0",
+    "gulp-sourcemaps": "^1.6.0"
+  }
+}

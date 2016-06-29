@@ -1,0 +1,303 @@
+//
+// Variables
+// --------------------------------------------------
+
+
+//== Colors
+//
+//$brand-primary:         darken(#428bca, 6.5%) !default; // #337ab7
+
+$gray-lighter:           #C6C2BA;
+
+$color-blue: #468CB5;
+$color-green: #74BC74;
+$color-purple: #917ABE;
+$color-yellow: #D79839;
+$color-red: #C76767;
+$color-dark: #4F616B;
+
+$brand-primary:         $color-blue;
+$brand-success:         $color-green;
+$brand-info:            $color-purple;
+$brand-warning:         $color-yellow;
+$brand-danger:          $color-red;
+
+
+$border-color:          #C8C8C8;
+
+//== Scaffolding
+//
+//## Settings for some of the most global styles.
+
+//** Background color for `<body>`.
+$body-bg:               #EFECE5;
+//** Global text color on `<body>`.
+$text-color:            #4A4A4A;
+
+
+
+//== Typography
+//
+//## Font, line-height, and color for body text, headings, and more.
+
+$font-size-base:          14px !default;
+
+//$font-family-sans-serif:  "游ゴシック体", "Yu Gothic", YuGothic, "メイリオ","ＭＳ Ｐゴシック","Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", Osaka, sans-serif;
+$font-family-sans-serif:  "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ","ＭＳ Ｐゴシック",Osaka, sans-serif;
+
+$font-family-sans-serif-en:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-serif-en:       Georgia, "Times New Roman", Times, serif;
+
+$line-height-large: 1.7;
+
+//== Iconography
+//
+//##
+
+//== Components
+//
+//##
+//$padding-base-vertical:     6px !default;
+//$padding-base-horizontal:   12px !default;
+//
+//$padding-large-vertical:    10px !default;
+//$padding-large-horizontal:  16px !default;
+//
+//$padding-small-vertical:    5px !default;
+//$padding-small-horizontal:  10px !default;
+//
+//$padding-xs-vertical:       1px !default;
+//$padding-xs-horizontal:     5px !default;
+//
+//$line-height-large:         1.3333333 !default; // extra decimals for Win 8.1 Chrome
+//$line-height-small:         1.5 !default;
+
+$border-radius-base:        3px !default;
+$border-radius-large:       6px !default;
+$border-radius-small:       3px !default;
+
+//== Tables
+//
+//## Customizes the `.table` component with basic values, each used across all table variations.
+
+//** Padding for `<th>`s and `<td>`s.
+$table-cell-padding:            7px;
+//** Padding for cells in `.table-condensed`.
+$table-condensed-cell-padding:  5px;
+
+//** Default background color used for all tables.
+$table-bg:                      #fff;
+//** Background color used for `.table-striped`.
+$table-bg-accent:               #f9f9f9 !default;
+//** Background color used for `.table-hover`.
+$table-bg-hover:                #f5f5f5 !default;
+$table-bg-active:               $table-bg-hover !default;
+
+//** Border color for table and cell borders.
+$table-border-color:            $border-color;
+
+
+
+
+
+//== Buttons
+//
+//##
+
+//$btn-primary-bg:                 #D79839;
+//$btn-primary-border:             darken($btn-primary-bg, 5%) !default;
+
+$btn-sub-primary-color: #eee;
+
+//== Forms
+//
+//##
+
+//== Dropdowns
+//
+//##
+
+//-- Z-index master list
+//
+
+//== Media queries breakpoints
+//
+//##
+
+//== Grid system
+//
+//##
+
+//== Container sizes
+//
+//##
+
+//== Navbar
+//
+//##
+
+//=== Inverted navbar
+// Reset inverted navbar basics
+//$navbar-inverse-color:                      lighten($gray-light, 15%) !default;
+$navbar-inverse-bg:                         $brand-primary;
+//$navbar-inverse-border:                     darken($navbar-inverse-bg, 10%) !default;
+$navbar-inverse-border:                     #C3C2C2;
+
+// Inverted navbar links
+$navbar-inverse-link-color:                 #fff;
+$navbar-inverse-link-hover-color:           #fff;
+$navbar-inverse-link-hover-bg:              lighten($navbar-inverse-bg, 5%);
+$navbar-inverse-link-active-color:          $navbar-inverse-bg !default;
+$navbar-inverse-link-active-bg:             #fff !default;
+$navbar-inverse-link-disabled-color:        #444 !default;
+$navbar-inverse-link-disabled-bg:           transparent !default;
+
+// Inverted navbar brand label
+$navbar-inverse-brand-color:                $navbar-inverse-link-color !default;
+$navbar-inverse-brand-hover-color:          #fff !default;
+$navbar-inverse-brand-hover-bg:             transparent !default;
+
+// Inverted navbar toggle
+$navbar-inverse-toggle-hover-bg:            #333 !default;
+$navbar-inverse-toggle-icon-bar-bg:         #fff !default;
+$navbar-inverse-toggle-border-color:        #333 !default;
+
+//== Navs
+//
+//##
+
+//== Pagination
+//
+//##
+
+$pagination-color:                     $color-dark;
+$pagination-bg:                        #CFD3D5;
+//$pagination-border:                    #ddd !default;
+
+//$pagination-hover-color:               #fff;
+$pagination-hover-bg:                  #AAB8BF;
+//$pagination-hover-border:              #ddd !default;
+
+//$pagination-active-color:              #fff !default;
+$pagination-active-bg:                 $color-dark;
+//$pagination-active-border:             $brand-primary !default;
+//
+//$pagination-disabled-color:            $gray-light !default;
+//$pagination-disabled-bg:               #fff !default;
+//$pagination-disabled-border:           #ddd !default;
+
+
+//== Pager
+//
+//##
+
+//== Jumbotron
+//
+//##
+
+
+//== Form states and alerts
+//
+//##
+
+//$state-success-text:             #3c763d !default;
+$state-success-bg:               #E5F0E2;
+$state-success-border:           #AEC1A9;
+
+//$state-info-text:                #31708f !default;
+//$state-info-bg:                  #DCEDF7;
+$state-info-text:                #4D318F;
+$state-info-bg:                  #ECE3FF;
+$state-info-border:              #C1A9BD;
+
+//$state-warning-text:             #8a6d3b !default;
+$state-warning-bg:               #FAF6D7;
+$state-warning-border:           #C1BCA9;
+
+//$state-danger-text:              #a94442 !default;
+$state-danger-bg:                #F6E3E3;
+$state-danger-border:            #C1A9A9;
+
+
+//== Tooltips
+//
+//##
+
+//== Popovers
+//
+//##
+
+
+//== Labels
+//
+//##
+
+//== Modals
+//
+//##
+
+//** Background color of modal content area
+$modal-content-bg:                             #FEFDF9;
+
+//== Alerts
+//
+//##
+
+$alert-padding:               12px;
+
+
+
+//== Progress bars
+//
+//##
+
+
+//== List group
+//
+//##
+
+
+//== Panels
+//
+//##
+
+//== Thumbnails
+//
+//##
+
+//== Wells
+//
+//##
+
+//== Badges
+//
+//##
+$badge-bg:                    $color-dark;
+
+//== Breadcrumbs
+//
+//##
+$breadcrumb-padding-vertical:   10px;
+$breadcrumb-color:              #777;
+$breadcrumb-bg:                 #FEFDF9;
+$breadcrumb-separator:          ">";
+
+//== Carousel
+//
+//##
+
+//== Close
+//
+//##
+
+
+//== Code
+//
+//##
+
+//== Type
+//
+//##
+
+
+$blockquote-font-size:        $font-size-base;

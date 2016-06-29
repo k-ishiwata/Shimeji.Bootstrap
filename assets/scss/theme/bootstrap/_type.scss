@@ -1,0 +1,36 @@
+//
+// Typography
+// --------------------------------------------------
+.font-en {
+  font-family: $font-family-sans-serif-en;
+}
+
+
+// Headings
+// -------------------------
+
+
+// Body text
+// -------------------------
+
+p {
+  line-height: $line-height-large;
+}
+
+
+// Page header
+// -------------------------
+
+.page-header {
+  position: relative;
+
+  &:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 1px;
+    display: block;
+    background: #fff;
+    bottom: -2px;
+  }
+}

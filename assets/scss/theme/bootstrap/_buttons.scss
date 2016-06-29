@@ -1,0 +1,77 @@
+//
+// Buttons
+// --------------------------------------------------
+
+//$btn-shadow: 2px 2px 0;
+
+// Base styles
+// --------------------------------------------------
+
+.btn {
+  //@include box-shadow($btn-shadow rgba(0,0,0,.3));
+  @include box-shadow(2px 2px 0 #A99E86);
+
+
+  &:active,
+  &.active {
+    outline: 0;
+    background-image: none;
+    //@include box-shadow($btn-shadow rgba(0,0,0,.3));
+  }
+  &:active,
+  &.active {
+    @include box-shadow(2px 2px 0 #A99E86);
+  }
+  &.btn-link {
+    @include box-shadow(none);
+  }
+}
+
+.btn-group > .btn + .dropdown-toggle {
+  margin-left: -7px;
+}
+
+
+
+
+// Alternate buttons
+// --------------------------------------------------
+
+/*
+.btn-default {
+}
+.btn-primary {
+  @include box-shadow($btn-shadow darken($brand-primary, 15%));
+}
+// Success appears as green
+.btn-success {
+  @include box-shadow($btn-shadow darken($brand-success, 15%));
+}
+// Info appears as blue-green
+.btn-info {
+  @include box-shadow($btn-shadow darken($brand-info, 15%));
+}
+// Warning appears as orange
+.btn-warning {
+  @include box-shadow($btn-shadow darken($brand-warning, 15%));
+}
+// Danger and error appear as red
+.btn-danger {
+  @include box-shadow($btn-shadow darken($brand-danger, 15%));
+}
+*/
+
+
+
+// Button Sizes
+// --------------------------------------------------
+
+
+// Button Sizes
+// --------------------------------------------------
+
+.btn-lg {
+  // line-height: ensure even-numbered height of button next to large input
+  @include button-size($padding-large-vertical, $padding-large-horizontal, $font-size-base, $line-height-large, $btn-border-radius-base);
+}
+
